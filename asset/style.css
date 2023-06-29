@@ -6,7 +6,7 @@
 :root{
     --title-color: #e53170;
     --img_bg-color: #0f0e17;
-    --email-color: #40adc7;
+    --email-color: #5edefe;
 }
 h1{
     text-align: center;
@@ -23,6 +23,7 @@ body{
     margin:auto;
     width: 80%;
     text-align: center;
+    
 }
 .text-center{
     text-align: left;
@@ -33,6 +34,15 @@ body{
     background-color: #0f0e17;
     margin: 1rem;
     color: white;
+    box-shadow: 1rem black;
+}
+h3, p{
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+.email{
+    color: #5edefe;
 }
 .clearfix::after{
 	content: "";
