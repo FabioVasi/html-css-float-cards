@@ -18,32 +18,44 @@ h1{
 body{
     font-family: 'Fredoka', sans-serif;
 }
+
 .container{
     max-width: 1170px;
     margin:auto;
     width: 80%;
-    text-align: center;
-    
+}.testo{
+    padding-bottom: 3rem;
 }
-.text-center{
-    text-align: left;
-}
-.team{
+.col{
     float: left;
-    width: calc(90% / 3);
-    background-color: #0f0e17;
-    margin: 1rem;
-    color: white;
-    box-shadow: 1rem black;
+    width: calc(100% / 3);
+    padding: 0 10px 10px 0;
 }
-h3, p{
+.team {
+    background-color: #0f0e17;
+    color: white;
+    border: 1px solid #0f0e17;
+    box-shadow: 1px 1px 3px black;
+}
+
+.team img {
+    width: 100px;
+    float: lef;
+}
+.content {
+    width: calc(100% - 100px);
+}
+.team h3, .team p{
     padding-left: 0.5rem;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
 }
-.email{
+.team .email{
     color: #5edefe;
 }
+
+
+/* Tools */
 .clearfix::after{
 	content: "";
 	display: table;
