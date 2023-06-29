@@ -29,7 +29,7 @@ body{
 .col{
     float: left;
     width: calc(100% / 3);
-    padding: 0 10px 10px 0;
+    padding: 0 20px 20px 0;
 }
 .team {
     background-color: #0f0e17;
@@ -40,7 +40,7 @@ body{
 
 .team img {
     width: 100px;
-    float: lef;
+    float: left;
 }
 .content {
     width: calc(100% - 100px);
@@ -52,6 +52,7 @@ body{
 }
 .team .email{
     color: #5edefe;
+    
 }
 
 
