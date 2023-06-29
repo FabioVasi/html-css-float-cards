@@ -43,11 +43,10 @@ body{
     float: left;
 }
 .content {
-    width: calc(100% - 100px);
+    margin-left: 104px;
 }
 .team h3, .team p{
-    padding-left: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 5px;
     padding-top: 0.5rem;
 }
 .team .email{
