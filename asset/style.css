@@ -3,8 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --title-color: #e53170;
+    --img_bg-color: #0f0e17;
+    --email-color: #40adc7;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #e53170;
+}
 body{
     font-family: 'Fredoka', sans-serif;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+    width: 80%;
 }
 .clearfix::after{
 	content: "";
