@@ -29,17 +29,19 @@ body{
 .col{
     float: left;
     width: calc(100% / 3);
-    padding: 0 20px 20px 0;
+    padding: 15px 15px 25px 15px;
 }
 .team {
     background-color: #0f0e17;
     color: white;
     border: 1px solid #0f0e17;
     box-shadow: 1px 1px 3px black;
+    max-height: 100px;
 }
 
 .team img {
     width: 100px;
+    height: 100px;
     float: left;
 }
 .content {
