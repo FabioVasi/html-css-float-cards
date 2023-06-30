@@ -49,11 +49,11 @@ body{
     padding-bottom: 5px;
     padding-top: 0.5rem;
 }
-.team .email{
-    color: #5edefe;
-    
-}
 
+ a{
+    text-decoration: none;
+    color: #5edefe;
+ }
 
 /* Tools */
 .clearfix::after{
